@@ -1,0 +1,2 @@
+# Preserve exact bytes: the Service Worker verifies SHA-256 for every static file.
+* -text
