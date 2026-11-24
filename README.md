@@ -15,13 +15,15 @@ No Windows, instale pelo Chrome ou Edge.
 
 ## Seus dados e backups
 
-Times, ataques, níveis, PC e jornada ficam somente no navegador. Não há login, sincronização ou backend. Para migrar do HTML antigo, exporte o JSON em Ajustes no navegador/perfil original e importe em Ajustes no novo aplicativo. Dados de file:// não são transferidos automaticamente para HTTPS.
+Times, ataques, níveis e jornada ficam somente no navegador. Não há login, sincronização ou backend. Para migrar do HTML antigo, exporte o JSON em Ajustes no navegador/perfil original e importe em Ajustes no novo aplicativo. Dados de file:// não são transferidos automaticamente para HTTPS.
+
+Novos backups usam o formato 4. Os formatos antigos 1, 2 e 3 continuam aceitos; campos de funcionalidades retiradas são ignorados. Os dados antigos do navegador permanecem guardados.
 
 Guarde backups JSON fora do navegador. Uma atualização de recursos estáticos não apaga os dados pessoais. Limpar dados do site ou do perfil pode apagá-los.
 
 ## Conteúdo
 
-386 espécies, 354 golpes GBA, sprites locais, cinco equipes, oito caixas por jogo, 17 tipos, guia de batalha e as 43 etapas originais de FireRed/LeafGreen. As cinco versões GBA permanecem disponíveis; o guia de Hoenn não foi ampliado.
+386 espécies, 354 golpes GBA, sprites locais, cinco equipes, 17 tipos, guia de batalha e as 43 etapas originais de FireRed/LeafGreen. As cinco versões GBA permanecem disponíveis; o guia de Hoenn não foi ampliado.
 
 O Guia da Jornada 2.0 preserva as 43 etapas e checklists, com orientações de acesso, encontros de FireRed, itens e dicas em seções expansíveis. Clicar num Pokémon abre sua ficha e permite retornar à etapa anterior. As ilustrações esquemáticas foram removidas.
 

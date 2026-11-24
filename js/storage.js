@@ -1,5 +1,5 @@
 'use strict';
-// A single setItem atomically commits teams, PC, journey and preferences.
+// A single setItem atomically commits teams, journey and preferences.
 // Old keys are read only as fallback; HTML 3.4 JSON backups retain their schema.
 window.PokeNavStore=(()=>{
  const KEY='pokenav-personal-v1';
@@ -12,6 +12,7 @@ window.PokeNavStore=(()=>{
  }
  return Object.freeze({
   getItem(key){const s=snapshot();return s&&Object.hasOwn(s,key)?s[key]:localStorage.getItem(key)},
-  commit(values){localStorage.setItem(KEY,JSON.stringify({schema:1,values}))}
+  // Keep opaque legacy fields in place; retiring a feature must not erase its saved data.
+  commit(values){const previous=snapshot()||{};localStorage.setItem(KEY,JSON.stringify({schema:1,values:{...previous,...values}}))}
  });
 })();

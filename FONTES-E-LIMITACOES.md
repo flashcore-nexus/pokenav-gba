@@ -27,7 +27,7 @@ O conteúdo de exploração em português foi produzido para o aplicativo e conf
 
 - FireRed e LeafGreen têm as 43 etapas originais; guias de Hoenn não foram ampliados.
 - Encontros são os registrados pela fonte para cada versão; não constituem uma lista exaustiva de presentes, trocas, eventos, requisitos de acesso e distribuição histórica. A ausência de encontro não significa impossibilidade de obtenção. O aviso da ficha foi mantido.
-- O aplicativo é um guia; não lê nem modifica saves do jogo. Capturas no PC são registros manuais.
+- O aplicativo é um guia; não lê nem modifica saves do jogo.
 - Os sprites são frontais, estáticos e representativos da espécie, como na base. Não há seleção de formas, sexo ou shiny. Deoxys usa atributos próprios do jogo selecionado; o sprite permanece na coleção FR/LG original.
 - Alguns termos de categoria da espécie e localizações especiais permanecem em inglês. Todos os 354 golpes têm rótulo em português e nome original; as traduções herdadas da v3.4 prevalecem.
 - O ranking de batalha estima tipos, poder e STAB; não calcula dano completo nem considera habilidades, IV/EV, velocidade ou nível. A categoria física/especial continua determinada pelo tipo na Geração III.

@@ -1,9 +1,9 @@
 {
-  "version": "3.4-pwa-b3758e39c4fc",
+  "version": "3.4-pwa-5651883e563d",
   "files": [
     {
       "path": "css/app.css",
-      "sha256": "80a775e7f130007dddb03378d3961d5d5a1bb226b7bb72e4357c79722363429b"
+      "sha256": "28d7c00957c88e506f6e2cca6a4ed9486d7b872bd7205f737286befc16442077"
     },
     {
       "path": "css/journey.css",
@@ -43,19 +43,19 @@
     },
     {
       "path": "index.html",
-      "sha256": "901d9622dbe676f3b75553774d5259d19454478d77bafb5ddc714f217fbc04df"
+      "sha256": "adaf9ff4959fcf456fb288b71f1781f9908fd1f334c6895fa2e3a372c8b32d6b"
     },
     {
       "path": "js/app.js",
-      "sha256": "57260e25cff0255c8697a429c40caacb8aa30d2760a76f54fe2bc491bf53529c"
+      "sha256": "5a30027c1c224c64f19437bb3720162be99eb126beff375cedcb899b2cd68742"
     },
     {
       "path": "js/pwa.js",
-      "sha256": "0e310a2ff66e11e0ba79ed90b241d7c3a6ce0e8e065135a2e38de8ef762625df"
+      "sha256": "baaad8524780c385bfd99c37df4b4a9a22f6394003dfe9532a3a80bf7c610df9"
     },
     {
       "path": "js/storage.js",
-      "sha256": "5bdfd767d82a7c492a448d5e0b5e182bd48c283cb51642043a41273def254314"
+      "sha256": "f805811981a68b81f6474076a719f8a5259261bfcdd20e736c87f3958272a216"
     },
     {
       "path": "licenses/PokeAPI-LICENSE.md",

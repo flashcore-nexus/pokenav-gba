@@ -66,7 +66,7 @@
   update.disabled=true;
   try{
    const next=await checkUpdate();if(!next)return;
-   if(!confirm('Aplicar a nova versão e reabrir o PokéNav agora? Seus times, PC e jornada serão preservados. Finalize os campos que estiver editando antes de continuar.'))return;
+   if(!confirm('Aplicar a nova versão e reabrir o PokéNav agora? Seus times, níveis, ataques e jornada serão preservados. Finalize os campos que estiver editando antes de continuar.'))return;
    if(registration.waiting!==next.worker||next.worker.state!=='installed'){await checkUpdate();return}
    activationVersion=next.version;update.hidden=true;next.worker.postMessage({type:'ACTIVATE'});
    setTimeout(async()=>{
@@ -102,6 +102,9 @@
   registration=reg;paint();checkUpdate();
   const watch=worker=>worker?.addEventListener('statechange',()=>{
    checkUpdate();
+   // The registration's waiting slot can settle after this statechange event,
+   // especially when a newer worker replaces another waiting worker.
+   if(worker.state==='installed'||worker.state==='redundant')setTimeout(checkUpdate,0);
    if(worker.state==='redundant'&&!navigator.serviceWorker.controller){verificationBusy=false;show('Preparação offline interrompida. Reconecte e tente novamente.')}
   });
   watch(reg.installing);watch(reg.waiting);
