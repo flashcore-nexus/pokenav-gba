@@ -41,4 +41,4 @@ O PWA solicita armazenamento persistente quando o navegador oferece essa API. A 
 
 No iPhone, retorne ao app conectado para permitir consultas de atualização e mantenha a tela aberta durante a preparação. A distribuição precisa de HTTPS; `localhost` só é exceção para desenvolvimento no próprio dispositivo. [Service Workers — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers).
 
-Instalação efetiva em iPhone/Android, comportamento do armazenamento entre Safari e tela inicial e funcionamento com pouca memória precisam ser validados nos aparelhos reais. Não há publicação HTTPS nesta entrega.
+Instalação efetiva em iPhone/Android, comportamento do armazenamento entre Safari e tela inicial e funcionamento com pouca memória precisam ser validados nos aparelhos reais. Endereço publicado: [PokéNav GBA](https://flashcore-nexus.github.io/pokenav-gba/).
