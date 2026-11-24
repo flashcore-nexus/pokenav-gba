@@ -1,0 +1,936 @@
+{
+  "schema": 1,
+  "game": "firered",
+  "stages": {
+    "pallet": {
+      "pt": "Cidade de Pallet",
+      "en": "Pallet Town",
+      "region": "Kanto",
+      "access": "Casa do jogador",
+      "places": "Laboratório do Professor Oak; casa do rival",
+      "gym": "Não possui",
+      "directions": [
+        "Saia de casa e tente seguir para o norte, em direção à Rota 1. Oak levará você ao laboratório; escolha um inicial e enfrente o rival."
+      ],
+      "items": [
+        "Poção (Potion): retire uma do PC do seu quarto antes de sair."
+      ],
+      "tips": [
+        "Sua mãe pode recuperar a equipe. A Pokédex será entregue somente depois da encomenda."
+      ],
+      "areas": [
+        "pallet-town"
+      ]
+    },
+    "route1": {
+      "pt": "Rota 1",
+      "en": "Route 1",
+      "region": "Kanto",
+      "access": "Saída norte de Pallet",
+      "places": "Ligação Pallet–Viridian",
+      "gym": "Não possui",
+      "directions": [
+        "Caminhe para o norte pelos trechos de grama até Viridian. Na volta, os desníveis permitem saltar em direção ao sul."
+      ],
+      "items": [
+        "Poção (Potion): converse com o funcionário da Poké Mart na rota."
+      ],
+      "tips": [
+        "Antes de receber as Poké Balls, os encontros servem para treinar; volte depois para capturar."
+      ],
+      "areas": [
+        "kanto-route-1"
+      ]
+    },
+    "viridian1": {
+      "pt": "Cidade de Viridian — primeira visita",
+      "en": "Viridian City",
+      "region": "Kanto",
+      "access": "Norte da Rota 1",
+      "places": "Centro Pokémon; Poké Mart",
+      "gym": "Fechado nesta visita",
+      "directions": [
+        "Recupere a equipe no Centro Pokémon. Procure a Poké Mart a nordeste do Centro e fale com o atendente; depois retorne a Pallet pela Rota 1."
+      ],
+      "items": [
+        "Encomenda de Oak (Oak’s Parcel): entregue pelo atendente da loja."
+      ],
+      "tips": [
+        "O caminho ao norte ainda está bloqueado. A prioridade é devolver a encomenda."
+      ],
+      "areas": [
+        "viridian-city"
+      ]
+    },
+    "pallet2": {
+      "pt": "Cidade de Pallet — retorno",
+      "en": "Pallet Town",
+      "region": "Kanto",
+      "access": "Rota 1, voltando ao sul",
+      "places": "Laboratório de Oak; casa do rival",
+      "gym": "Não possui",
+      "directions": [
+        "Volte ao laboratório para entregar a encomenda. Antes de sair novamente pela Rota 1, visite a casa do rival e converse com Daisy."
+      ],
+      "items": [
+        "Pokédex e cinco Poké Balls: Oak. Mapa da Região (Town Map): Daisy, após receber a Pokédex."
+      ],
+      "tips": [
+        "Agora é possível começar as capturas. Retorne a Viridian."
+      ],
+      "areas": [
+        "pallet-town"
+      ]
+    },
+    "viridian2": {
+      "pt": "Cidade de Viridian — saída norte",
+      "en": "Viridian City",
+      "region": "Kanto",
+      "access": "Rota 1 após entregar a encomenda",
+      "places": "Poké Mart; passagem para a Rota 2",
+      "gym": "Fechado até a etapa do oitavo ginásio",
+      "directions": [
+        "Siga ao norte e acompanhe o tutorial do senhor que antes bloqueava a passagem. Continue pela saída para a Rota 2."
+      ],
+      "items": [
+        "Teachy TV: recebida após a demonstração de captura."
+      ],
+      "tips": [
+        "A saída oeste leva à Rota 22 e a um desafio opcional contra o rival."
+      ],
+      "areas": [
+        "viridian-city"
+      ]
+    },
+    "route2": {
+      "pt": "Rota 2 — entrada sul",
+      "en": "Route 2",
+      "region": "Kanto",
+      "access": "Saída norte de Viridian",
+      "places": "Entrada sul da Floresta de Viridian",
+      "gym": "Não possui",
+      "directions": [
+        "Atravesse a parte oeste da rota rumo ao norte e entre no edifício de acesso à floresta. O lado leste será explorado mais tarde pela Caverna de Diglett."
+      ],
+      "items": [
+        "Itens da porção leste ficam para a visita posterior; não são necessários nesta passagem."
+      ],
+      "tips": [
+        "Cut ainda não está disponível. Siga pelo acesso à floresta, sem tentar atravessar as árvores cortáveis."
+      ],
+      "areas": [
+        "kanto-route-2-south-towards-viridian-city"
+      ]
+    },
+    "forest": {
+      "pt": "Floresta de Viridian",
+      "en": "Viridian Forest",
+      "region": "Kanto",
+      "access": "Portão ao norte da Rota 2",
+      "places": "Trilhas; treinadores Caça-Insetos",
+      "gym": "Não possui",
+      "directions": [
+        "Entre pela passagem sul e percorra as trilhas entre as árvores até a saída norte. Ao sair, continue pela Rota 2 até Pewter."
+      ],
+      "items": [
+        "Poké Ball: trilha sem saída a noroeste da entrada sul. Antídoto escondido: lado oeste da árvore isolada próxima dessa entrada."
+      ],
+      "tips": [
+        "Leve antídotos: Weedle pode envenenar. Pikachu é um encontro pouco frequente confirmado na tabela local."
+      ],
+      "areas": [
+        "viridian-forest"
+      ]
+    },
+    "pewter": {
+      "pt": "Cidade de Pewter",
+      "en": "Pewter City",
+      "region": "Kanto",
+      "access": "Saída norte da floresta, pela Rota 2",
+      "places": "Ginásio; Museu de Ciência",
+      "gym": "Brock — Pedra",
+      "directions": [
+        "Visite o ginásio e derrote Brock. Depois siga à saída leste, que conduz à Rota 3. O museu fica no norte da cidade."
+      ],
+      "items": [
+        "Insígnia de Pedra (Boulder Badge) e TM39 Rock Tomb: vitória sobre Brock. Tênis de Corrida (Running Shoes): ajudante na saída leste após o ginásio."
+      ],
+      "tips": [
+        "Água e Planta funcionam bem contra os tipos Pedra/Terrestre de Brock; golpes Elétricos não causam dano."
+      ],
+      "areas": []
+    },
+    "route3": {
+      "pt": "Rota 3",
+      "en": "Route 3",
+      "region": "Kanto",
+      "access": "Saída leste de Pewter",
+      "places": "Treinadores; acesso à Rota 4 oeste",
+      "gym": "Não possui",
+      "directions": [
+        "Siga para leste, enfrentando os treinadores, até o Centro Pokémon na área que antecede o Monte Lua, já na Rota 4."
+      ],
+      "items": [
+        "Não há item obrigatório para liberar a passagem; recupere a equipe antes de entrar no Monte Lua."
+      ],
+      "tips": [
+        "O vendedor de Magikarp fica dentro do Centro Pokémon antes da caverna, não na grama da Rota 3."
+      ],
+      "areas": [
+        "kanto-route-3"
+      ]
+    },
+    "moon": {
+      "pt": "Monte Lua",
+      "en": "Mt. Moon",
+      "region": "Kanto",
+      "access": "Rota 4 oeste, ao lado do Centro Pokémon",
+      "places": "Andares subterrâneos; área dos fósseis",
+      "gym": "Não possui",
+      "directions": [
+        "Entre pela abertura próxima ao Centro Pokémon. Procure as escadas que levam ao subsolo mais profundo; no trecho final, enfrente o Super Nerd e escolha um fóssil antes de sair para a Rota 4 leste."
+      ],
+      "items": [
+        "Fóssil Helix (Helix Fossil) ou Fóssil Domo (Dome Fossil): escolha apenas um após a batalha. Pedras da Lua (Moon Stones) também existem na caverna."
+      ],
+      "tips": [
+        "O fóssil só será revivido no laboratório de Cinnabar. Uma Corda de Fuga ajuda se precisar voltar para se curar."
+      ],
+      "areas": [
+        "mt-moon-1f",
+        "mt-moon-b1f",
+        "mt-moon-b2f"
+      ]
+    },
+    "route4": {
+      "pt": "Rota 4",
+      "en": "Route 4",
+      "region": "Kanto",
+      "access": "Saída leste do Monte Lua",
+      "places": "Treinadores de golpes; caminho para Cerulean",
+      "gym": "Não possui",
+      "directions": [
+        "Após sair da caverna, siga para leste até Cerulean. Os desníveis tornam esse trecho de mão única na primeira passagem."
+      ],
+      "items": [
+        "TM05 Roar: encontrada na parte leste da Rota 4. Compra opcional de Magikarp: Centro Pokémon da parte oeste, antes do Monte Lua."
+      ],
+      "tips": [
+        "Os tutores de Mega Punch e Mega Kick estão na saída leste da caverna. Confira a compatibilidade antes de escolher."
+      ],
+      "areas": [
+        "kanto-route-4",
+        "kanto-route-4-pokemon-center"
+      ]
+    },
+    "cerulean": {
+      "pt": "Cidade de Cerulean",
+      "en": "Cerulean City",
+      "region": "Kanto",
+      "access": "Rota 4 leste",
+      "places": "Ginásio; loja de bicicletas; ponte ao norte",
+      "gym": "Misty — Água",
+      "directions": [
+        "Recupere a equipe e enfrente Misty. Para encontrar Bill, use a saída norte da cidade, derrote o rival e atravesse a Ponte Pepita na Rota 24."
+      ],
+      "items": [
+        "Insígnia da Cascata (Cascade Badge) e TM03 Water Pulse: vitória sobre Misty."
+      ],
+      "tips": [
+        "Planta e Elétrico ajudam contra Misty. A bicicleta depende do vale recebido mais tarde em Vermilion."
+      ],
+      "areas": [
+        "cerulean-city"
+      ]
+    },
+    "route24": {
+      "pt": "Rota 24 — Ponte Pepita",
+      "en": "Route 24 — Nugget Bridge",
+      "region": "Kanto",
+      "access": "Saída norte de Cerulean",
+      "places": "Ponte Pepita; acesso à Rota 25",
+      "gym": "Não possui",
+      "directions": [
+        "Saia de Cerulean pelo norte. Atravesse a sequência de treinadores da ponte e, ao chegar ao outro lado, siga para leste pela Rota 25."
+      ],
+      "items": [
+        "Pepita (Nugget): recebida ao terminar o desafio da ponte."
+      ],
+      "tips": [
+        "Abra pode fugir com Teleport. Confira os métodos de captura antes de gastar muitas Poké Balls."
+      ],
+      "areas": [
+        "kanto-route-24"
+      ]
+    },
+    "route25": {
+      "pt": "Rota 25 — casa de Bill",
+      "en": "Route 25 — Sea Cottage",
+      "region": "Kanto",
+      "access": "Extremidade norte da Rota 24",
+      "places": "Casa de Bill (Sea Cottage)",
+      "gym": "Não possui",
+      "directions": [
+        "Siga para leste pelo caminho de treinadores até a casa no fim da rota. Fale com o Pokémon dentro da casa; depois que ele entrar na máquina, use o PC para ajudar Bill. Retorne a Cerulean."
+      ],
+      "items": [
+        "S.S. Ticket: Bill entrega após o experimento. TM43 Secret Power: na área do labirinto de treinadores."
+      ],
+      "tips": [
+        "Guarde o bilhete: ele permite entrar no S.S. Anne em Vermilion."
+      ],
+      "areas": [
+        "kanto-route-25"
+      ]
+    },
+    "cerulean2": {
+      "pt": "Cidade de Cerulean — casa invadida",
+      "en": "Cerulean City",
+      "region": "Kanto",
+      "access": "Retorno da casa de Bill",
+      "places": "Casa assaltada; passagem ao sul",
+      "gym": "Misty — Água",
+      "directions": [
+        "Entre na casa assaltada que estava sendo vigiada. Saia pela abertura nos fundos, enfrente o integrante da Rocket e siga para o sul em direção à Rota 5."
+      ],
+      "items": [
+        "TM28 Dig: obtida ao derrotar o Rocket atrás da casa."
+      ],
+      "tips": [
+        "A passagem permite sair da cidade rumo ao sul; não é necessário entrar em Saffron ainda."
+      ],
+      "areas": [
+        "cerulean-city"
+      ]
+    },
+    "route5": {
+      "pt": "Rota 5 e Passagem Subterrânea",
+      "en": "Route 5 — Underground Path",
+      "region": "Kanto",
+      "access": "Saída sul de Cerulean",
+      "places": "Day Care; entrada da passagem subterrânea",
+      "gym": "Não possui",
+      "directions": [
+        "Desça a Rota 5. Como o portão para Saffron está bloqueado, entre na pequena construção de acesso à Passagem Subterrânea e atravesse até a Rota 6."
+      ],
+      "items": [
+        "Não há item obrigatório a recolher nesta passagem. O Day Care oferece treinamento pago de Pokémon."
+      ],
+      "tips": [
+        "O Day Care desta rota não oferece criação de ovos. Para avançar, use o túnel que contorna Saffron."
+      ],
+      "areas": [
+        "kanto-route-5"
+      ]
+    },
+    "route6": {
+      "pt": "Rota 6",
+      "en": "Route 6",
+      "region": "Kanto",
+      "access": "Saída sul da Passagem Subterrânea",
+      "places": "Caminho para Vermilion",
+      "gym": "Não possui",
+      "directions": [
+        "Saia da construção da passagem subterrânea e siga para o sul pela rota até Vermilion. O portão ao norte leva a Saffron, ainda bloqueado nesta fase."
+      ],
+      "items": [
+        "Doce Raro (Rare Candy) escondido: colina a nordeste, dois passos ao norte da abertura entre desníveis."
+      ],
+      "tips": [
+        "Oddish está disponível em FireRed nesta área; Bellsprout é exclusivo de LeafGreen e não aparece na lista FireRed."
+      ],
+      "areas": [
+        "kanto-route-6"
+      ]
+    },
+    "vermilion": {
+      "pt": "Cidade de Vermilion e S.S. Anne",
+      "en": "Vermilion City — S.S. Anne",
+      "region": "Kanto",
+      "access": "Sul da Rota 6",
+      "places": "Porto; S.S. Anne; Fã-Clube; casa do pescador",
+      "gym": "Lt. Surge — Elétrico",
+      "directions": [
+        "Apresente o S.S. Ticket no porto e embarque. No andar superior do navio, enfrente o rival antes dos aposentos do capitão e ajude o capitão. Com Cut e a insígnia de Misty, corte a árvore de acesso ao ginásio."
+      ],
+      "items": [
+        "HM01 Cut: capitão. Vara Velha (Old Rod): pescador na casa a noroeste. Vale-Bicicleta (Bike Voucher): presidente do Fã-Clube. TM34 Shock Wave: Lt. Surge."
+      ],
+      "tips": [
+        "Pokémon Terrestres resistem por imunidade aos golpes Elétricos. Volte à loja de Cerulean para trocar o vale pela bicicleta."
+      ],
+      "areas": [
+        "vermilion-city",
+        "ss-anne"
+      ]
+    },
+    "route11": {
+      "pt": "Rota 11",
+      "en": "Route 11",
+      "region": "Kanto",
+      "access": "Saída leste de Vermilion",
+      "places": "Caverna de Diglett; portão leste",
+      "gym": "Não possui",
+      "directions": [
+        "Siga a leste de Vermilion e procure a entrada da Caverna de Diglett na própria rota. A continuação para a Rota 12 fica bloqueada por Snorlax até obter a Poké Flute."
+      ],
+      "items": [
+        "Itemfinder: ajudante de Oak no andar superior do portão leste, após registrar 30 espécies capturadas."
+      ],
+      "tips": [
+        "A caverna oferece uma ligação rápida com a Rota 2. Drowzee é uma opção de tipo Psíquico nessa rota."
+      ],
+      "areas": [
+        "kanto-route-11"
+      ]
+    },
+    "diglett": {
+      "pt": "Caverna de Diglett e Rota 2 leste",
+      "en": "Diglett’s Cave — Route 2 East",
+      "region": "Kanto",
+      "access": "Entrada na Rota 11",
+      "places": "Casa de troca; portão do ajudante de Oak; museu de Pewter",
+      "gym": "Não possui",
+      "directions": [
+        "Atravesse a caverna até sair no lado leste da Rota 2. Use Cut e siga ao sul até o portão com o ajudante de Oak. Para voltar ao caminho principal, retorne pela caverna ou use as passagens liberadas por Cut."
+      ],
+      "items": [
+        "HM05 Flash: ajudante de Oak, com dez espécies capturadas. Âmbar Antigo (Old Amber): cientista na parte dos fundos do museu de Pewter, acessível com Cut."
+      ],
+      "tips": [
+        "Flash ilumina o Rock Tunnel e exige a insígnia de Brock. Diglett e Dugtrio podem dificultar a fuga com Arena Trap."
+      ],
+      "areas": [
+        "digletts-cave"
+      ]
+    },
+    "route9": {
+      "pt": "Rota 9",
+      "en": "Route 9",
+      "region": "Kanto",
+      "access": "Saída leste de Cerulean, com Cut",
+      "places": "Caminho até a Rota 10",
+      "gym": "Não possui",
+      "directions": [
+        "Retorne a Cerulean e corte a árvore que bloqueia a saída leste. Atravesse a Rota 9 em direção ao leste até chegar à Rota 10."
+      ],
+      "items": [
+        "TM40 Aerial Ace: recolhida na Rota 9."
+      ],
+      "tips": [
+        "Leve um Pokémon com Flash se quiser iluminar o próximo túnel. Há um Centro Pokémon antes da entrada."
+      ],
+      "areas": [
+        "kanto-route-9"
+      ]
+    },
+    "route10": {
+      "pt": "Rota 10 — entrada norte do túnel",
+      "en": "Route 10 — Rock Tunnel North",
+      "region": "Kanto",
+      "access": "Leste da Rota 9",
+      "places": "Centro Pokémon; entrada norte do Rock Tunnel",
+      "gym": "Não possui",
+      "directions": [
+        "Procure o Centro Pokémon junto à entrada do túnel e recupere a equipe. Entre no Rock Tunnel pelo acesso norte. A Usina Elétrica é um desvio posterior feito com Surf."
+      ],
+      "items": [
+        "Everstone: ajudante de Oak no Centro Pokémon, após capturar vinte espécies."
+      ],
+      "tips": [
+        "Os encontros da Rota 10 incluem áreas que você pode visitar em momentos diferentes; Surf e pesca exigem seus recursos próprios."
+      ],
+      "areas": [
+        "kanto-route-10"
+      ]
+    },
+    "rocktunnel": {
+      "pt": "Túnel Rochoso",
+      "en": "Rock Tunnel",
+      "region": "Kanto",
+      "access": "Entrada norte na Rota 10",
+      "places": "Escadas entre 1F e B1F",
+      "gym": "Não possui",
+      "directions": [
+        "Use Flash para enxergar melhor e alterne entre os dois andares pelas escadas. A saída sul leva de volta à Rota 10; continue para o sul até Lavender."
+      ],
+      "items": [
+        "Não há HM ou chave obrigatória a recolher dentro do túnel para concluir a travessia."
+      ],
+      "tips": [
+        "Flash facilita a navegação, mas não é uma exigência mecânica. Água ou Planta ajudam contra muitos Pokémon de Pedra/Terrestre."
+      ],
+      "areas": [
+        "rock-tunnel-1f",
+        "rock-tunnel-b1f"
+      ]
+    },
+    "lavender": {
+      "pt": "Cidade de Lavender — primeira visita",
+      "en": "Lavender Town",
+      "region": "Kanto",
+      "access": "Saída sul do Rock Tunnel, pela Rota 10",
+      "places": "Torre Pokémon; casa de Fuji; Avaliador de Nomes",
+      "gym": "Não possui",
+      "directions": [
+        "Ao chegar, visite o Centro Pokémon. A Torre Pokémon permite uma visita inicial, mas o fantasma que bloqueia a subida exige o Silph Scope. Para avançar na história, saia a oeste pela Rota 8."
+      ],
+      "items": [
+        "Poké Flute: será recebida de Fuji somente depois do resgate, na visita posterior."
+      ],
+      "tips": [
+        "O Avaliador de Nomes fica na cidade. Não tente capturar o fantasma que bloqueia a passagem da torre."
+      ],
+      "areas": []
+    },
+    "route8": {
+      "pt": "Rotas 8 e 7 — Passagem Subterrânea",
+      "en": "Routes 8 and 7 — Underground Path",
+      "region": "Kanto",
+      "access": "Saída oeste de Lavender",
+      "places": "Túnel que contorna Saffron",
+      "gym": "Não possui",
+      "directions": [
+        "Atravesse a Rota 8 para oeste. Use a Passagem Subterrânea que liga as Rotas 8 e 7; ao sair, continue a oeste até Celadon."
+      ],
+      "items": [
+        "Não há item obrigatório para abrir o túnel. O acesso direto a Saffron depende do Tea de Celadon."
+      ],
+      "tips": [
+        "Growlithe é uma captura de FireRed nessas rotas; a tabela não inclui Vulpix como encontro direto."
+      ],
+      "areas": [
+        "kanto-route-8",
+        "kanto-route-7"
+      ]
+    },
+    "celadon": {
+      "pt": "Cidade de Celadon",
+      "en": "Celadon City",
+      "region": "Kanto",
+      "access": "Rota 7",
+      "places": "Mansão; loja de departamentos; Game Corner; esconderijo Rocket",
+      "gym": "Erika — Planta",
+      "directions": [
+        "Investigue o pôster no Game Corner após enfrentar o Rocket. No esconderijo, obtenha a Lift Key no B4F falando novamente com o Rocket derrotado; use o elevador para alcançar Giovanni. Use Cut para chegar ao ginásio."
+      ],
+      "items": [
+        "Silph Scope: Giovanni no esconderijo. Tea: senhora no térreo da mansão. Pedras evolutivas: loja de departamentos. TM19 Giga Drain: Erika."
+      ],
+      "tips": [
+        "Fogo e Voador ajudam contra Erika. A entrada dos fundos da mansão leva ao Eevee; a saída oeste conduz ao desvio de Fly."
+      ],
+      "areas": [
+        "celadon-city",
+        "celadon-city-celadon-mansion",
+        "celadon-city-prize-corner"
+      ]
+    },
+    "lavender2": {
+      "pt": "Cidade de Lavender — Torre Pokémon",
+      "en": "Lavender Town — Pokémon Tower",
+      "region": "Kanto",
+      "access": "Retorno de Celadon com Silph Scope",
+      "places": "Torre Pokémon; casa de Fuji",
+      "gym": "Não possui",
+      "directions": [
+        "Retorne à torre com o Silph Scope. Suba os andares, vença o fantasma de Marowak no sexto andar e derrote os Rockets no sétimo para libertar Fuji. Fale com ele em sua casa."
+      ],
+      "items": [
+        "Poké Flute: Fuji entrega após o resgate."
+      ],
+      "tips": [
+        "O Marowak fantasma não pode ser capturado. A Poké Flute acorda os Snorlax das Rotas 12 e 16."
+      ],
+      "areas": [
+        "pokemon-tower-3f",
+        "pokemon-tower-4f",
+        "pokemon-tower-5f",
+        "pokemon-tower-6f",
+        "pokemon-tower-7f"
+      ]
+    },
+    "routes16": {
+      "pt": "Rotas 16 a 18 — Ciclovia",
+      "en": "Routes 16–18 — Cycling Road",
+      "region": "Kanto",
+      "access": "Saída oeste de Celadon",
+      "places": "Casa de Fly; Snorlax; Ciclovia",
+      "gym": "Não possui",
+      "directions": [
+        "Saia a oeste de Celadon pela Rota 16. Use Cut no desvio norte para alcançar a casa de Fly. Acorde Snorlax com a Poké Flute e entre na Ciclovia com a bicicleta; siga ao sul até a Rota 18 e Fuchsia."
+      ],
+      "items": [
+        "HM02 Fly: moradora da casa no desvio norte da Rota 16."
+      ],
+      "tips": [
+        "Este é um caminho alternativo às Rotas 12–15. Não é necessário percorrer as duas alternativas para chegar a Fuchsia."
+      ],
+      "areas": [
+        "kanto-route-16",
+        "kanto-route-17",
+        "kanto-route-18"
+      ]
+    },
+    "routes12": {
+      "pt": "Rotas 12 a 15 — caminho costeiro",
+      "en": "Routes 12–15",
+      "region": "Kanto",
+      "access": "Sul de Lavender ou leste de Fuchsia",
+      "places": "Casa da Super Rod; Snorlax; portão de Fuchsia",
+      "gym": "Não possui",
+      "directions": [
+        "Partindo de Lavender, siga ao sul pela Rota 12 e acorde Snorlax. Continue pelas Rotas 13 e 14, depois siga a oeste pela Rota 15 até Fuchsia."
+      ],
+      "items": [
+        "Supervara (Super Rod): pescador na casa da Rota 12. Exp. Share: ajudante no portão da Rota 15, após cinquenta espécies capturadas."
+      ],
+      "tips": [
+        "A Ciclovia é a alternativa pelo oeste. Leve a Poké Flute se o Snorlax ainda estiver bloqueando o caminho."
+      ],
+      "areas": [
+        "kanto-route-12",
+        "kanto-route-13",
+        "kanto-route-14",
+        "kanto-route-15"
+      ]
+    },
+    "fuchsia": {
+      "pt": "Cidade de Fuchsia e Zona Safari",
+      "en": "Fuchsia City — Safari Zone",
+      "region": "Kanto",
+      "access": "Rota 18 pelo oeste ou Rota 15 pelo leste",
+      "places": "Zona Safari; casa do Warden; casa do pescador",
+      "gym": "Koga — Venenoso",
+      "directions": [
+        "Entre na Zona Safari pelo norte da cidade. Atravesse as áreas até a região oeste e procure a Secret House e os Gold Teeth. Volte à casa do Warden, na parte sudeste de Fuchsia, para devolver a dentadura."
+      ],
+      "items": [
+        "HM03 Surf: homem na Secret House. HM04 Strength: Warden após receber Gold Teeth. Good Rod: pescador em Fuchsia. TM06 Toxic: Koga."
+      ],
+      "tips": [
+        "Surf fora de batalha exige a insígnia de Koga. Psíquico e Terrestre são úteis no ginásio; considere as habilidades e os tipos de cada adversário."
+      ],
+      "areas": [
+        "fuchsia-city",
+        "kanto-safari-zone-middle",
+        "kanto-safari-zone-area-1-east",
+        "kanto-safari-zone-area-2-north",
+        "kanto-safari-zone-area-3-west"
+      ]
+    },
+    "saffron": {
+      "pt": "Cidade de Saffron — Empresa Silph",
+      "en": "Saffron City — Silph Co.",
+      "region": "Kanto",
+      "access": "Um dos portões, após entregar Tea ao guarda",
+      "places": "Silph Co.; Dojo; casa de Mr. Psychic",
+      "gym": "Sabrina — Psíquico",
+      "directions": [
+        "Entregue Tea a um guarda e entre em Saffron. Na Silph, procure a Card Key no corredor sul do 5F. Use-a para acessar o teletransporte do 3F, enfrentar o rival no 7F e alcançar Giovanni no 11F."
+      ],
+      "items": [
+        "Card Key: 5F da Silph. Master Ball: presidente após libertar a empresa. TM29 Psychic: Mr. Psychic. TM04 Calm Mind: Sabrina."
+      ],
+      "tips": [
+        "Golpes Sombrio e Fantasma são eficazes contra Psíquico na Geração III. O Dojo oferece a escolha de Hitmonlee ou Hitmonchan."
+      ],
+      "areas": [
+        "saffron-city-fighting-dojo",
+        "saffron-city-silph-co-7f"
+      ]
+    },
+    "route19": {
+      "pt": "Rotas marítimas 19 e 20",
+      "en": "Sea Routes 19–20",
+      "region": "Kanto",
+      "access": "Saída sul de Fuchsia, com Surf",
+      "places": "Mar ao leste das Ilhas Espuma do Mar",
+      "gym": "Não possui",
+      "directions": [
+        "Saia ao sul de Fuchsia pela Rota 19 e use Surf. Navegue ao sul e depois para oeste pela Rota 20 até as Ilhas Espuma do Mar."
+      ],
+      "items": [
+        "Não há item-chave obrigatório nesse trecho; prepare Surf e Strength antes da travessia das ilhas."
+      ],
+      "tips": [
+        "Surf depende da insígnia de Koga. É possível alcançar Cinnabar por outro caminho: Surf ao sul de Pallet, pela Rota 21."
+      ],
+      "areas": [
+        "kanto-sea-route-19",
+        "kanto-sea-route-20"
+      ]
+    },
+    "seafoam": {
+      "pt": "Ilhas Espuma do Mar",
+      "en": "Seafoam Islands",
+      "region": "Kanto",
+      "access": "Rota 20, com Surf e Strength",
+      "places": "Cavernas; correntes; área de Articuno",
+      "gym": "Não possui",
+      "directions": [
+        "Entre na caverna e use Strength para empurrar as pedras pelos buracos. Elas bloqueiam correntes nos andares inferiores, permitindo atravessar com Surf até o lado oeste."
+      ],
+      "items": [
+        "Não há chave para a travessia; os quebra-cabeças usam as pedras do próprio local."
+      ],
+      "tips": [
+        "Articuno é opcional. Salve no próprio jogo antes de iniciar o encontro; uma derrota não gera um novo encontro normal."
+      ],
+      "areas": [
+        "seafoam-islands-1f",
+        "seafoam-islands-b1f",
+        "seafoam-islands-b2f",
+        "seafoam-islands-b3f",
+        "seafoam-islands-b4f"
+      ]
+    },
+    "cinnabar": {
+      "pt": "Ilha de Cinnabar",
+      "en": "Cinnabar Island",
+      "region": "Kanto",
+      "access": "Rota 20 pelo leste ou Rota 21 ao norte",
+      "places": "Laboratório; Mansão Pokémon; ginásio",
+      "gym": "Blaine — Fogo",
+      "directions": [
+        "Entre na Mansão Pokémon, no noroeste da ilha. Acione os interruptores das estátuas para mudar as portas e encontre a Secret Key no B1F. Depois entre no ginásio, a nordeste. O laboratório de fósseis fica a oeste."
+      ],
+      "items": [
+        "Secret Key: mesa na sala noroeste do B1F da mansão. TM22 SolarBeam: B1F. TM38 Fire Blast: Blaine."
+      ],
+      "tips": [
+        "Água, Terra e Pedra são opções contra Blaine. No laboratório, entregue um fóssil e volte depois para receber o Pokémon."
+      ],
+      "areas": [
+        "cinnabar-island",
+        "cinnabar-island-cinnabar-lab",
+        "pokemon-mansion-1f",
+        "pokemon-mansion-2f",
+        "pokemon-mansion-3f",
+        "pokemon-mansion-b1f"
+      ]
+    },
+    "sevii1": {
+      "pt": "Ilha Um",
+      "en": "One Island",
+      "region": "Ilhas Sevii",
+      "access": "Convite de Bill após Blaine; depois, balsa",
+      "places": "Centro de Rede; Kindle Road; Ember Spa; Monte Ember",
+      "gym": "Não possui",
+      "directions": [
+        "Acompanhe Bill até a Ilha Um e converse com Celio no Centro de Rede. Use a balsa para levar a Meteorite ao responsável pelo Game Corner da Ilha Dois. Kindle Road e Monte Ember são desvios opcionais."
+      ],
+      "items": [
+        "Tri-Pass e ampliação do mapa: Celio. Meteorite: entrega de Bill. HM06 Rock Smash: homem em Ember Spa."
+      ],
+      "tips": [
+        "As primeiras três ilhas podem ser visitadas com o Tri-Pass. Moltres fica no Monte Ember e não é necessário para a entrega."
+      ],
+      "areas": [
+        "one-island",
+        "kindle-road",
+        "mt-ember",
+        "mt-ember-cave",
+        "mt-ember-inside",
+        "mt-ember-summit",
+        "treasure-beach"
+      ]
+    },
+    "sevii2": {
+      "pt": "Ilhas Dois e Três — resgate",
+      "en": "Two Island — Three Island",
+      "region": "Ilhas Sevii",
+      "access": "Balsa da Ilha Um, com Tri-Pass",
+      "places": "Game Corner; Bond Bridge; Floresta das Frutas",
+      "gym": "Não possui",
+      "directions": [
+        "No Game Corner da Ilha Dois, descubra o desaparecimento de Lostelle. Na Ilha Três, resolva o conflito com os motociclistas e atravesse Bond Bridge até Berry Forest. Resgate Lostelle e volte ao Game Corner antes de retornar à Ilha Um."
+      ],
+      "items": [
+        "Moon Stone: recompensa pela entrega da Meteorite ao pai de Lostelle."
+      ],
+      "tips": [
+        "O tutor de golpes da Ilha Dois usa cogumelos como pagamento. O resgate envolve um encontro com Hypno."
+      ],
+      "areas": [
+        "cape-brink",
+        "three-isle-port",
+        "bond-bridge",
+        "berry-forest"
+      ]
+    },
+    "viridiangym": {
+      "pt": "Cidade de Viridian — oitavo ginásio",
+      "en": "Viridian City — Viridian Gym",
+      "region": "Kanto",
+      "access": "Retorno a Kanto, com sete insígnias",
+      "places": "Ginásio de Viridian",
+      "gym": "Giovanni — Terrestre",
+      "directions": [
+        "Volte a Viridian com as sete insígnias anteriores. Entre no ginásio antes fechado e use as plataformas direcionais para alcançar Giovanni. Depois siga pela saída oeste da cidade."
+      ],
+      "items": [
+        "Insígnia da Terra (Earth Badge) e TM26 Earthquake: Giovanni. Macho Brace escondido: use Itemfinder no lugar onde Giovanni estava."
+      ],
+      "tips": [
+        "Água e Planta ajudam contra o time de Giovanni. Confirme as oito insígnias antes de tentar a Liga."
+      ],
+      "areas": [
+        "viridian-city"
+      ]
+    },
+    "route22": {
+      "pt": "Rotas 22 e 23 — acesso à Liga",
+      "en": "Routes 22–23",
+      "region": "Kanto",
+      "access": "Saída oeste de Viridian",
+      "places": "Portões de conferência das insígnias",
+      "gym": "Não possui",
+      "directions": [
+        "Siga a oeste pela Rota 22 e enfrente o rival quando o evento ocorrer. Atravesse o prédio de acesso e suba pela Rota 23, mostrando as insígnias; use Surf onde o caminho cruza a água."
+      ],
+      "items": [
+        "Não é necessário obter outro item-chave: as oito insígnias liberam os postos de controle."
+      ],
+      "tips": [
+        "Leve Surf e Strength para chegar à Liga pelo caminho de Victory Road."
+      ],
+      "areas": [
+        "kanto-route-22",
+        "kanto-route-23"
+      ]
+    },
+    "victory": {
+      "pt": "Estrada da Vitória",
+      "en": "Victory Road",
+      "region": "Kanto",
+      "access": "Extremo norte da Rota 23",
+      "places": "Pedras e interruptores; escadas entre andares",
+      "gym": "Não possui",
+      "directions": [
+        "Use Strength para colocar as pedras sobre os interruptores e abrir os bloqueios. Suba pelas escadas e conclua os quebra-cabeças até alcançar a saída para o Planalto Índigo."
+      ],
+      "items": [
+        "Há TMs e itens no chão; a lista completa de posições não foi incorporada. Nenhum deles substitui Strength nos quebra-cabeças."
+      ],
+      "tips": [
+        "Leve cura e repelentes. Moltres não fica aqui em FireRed; seu encontro é no Monte Ember."
+      ],
+      "areas": [
+        "kanto-victory-road-2-1f",
+        "kanto-victory-road-2-2f",
+        "kanto-victory-road-2-3f"
+      ]
+    },
+    "indigo": {
+      "pt": "Planalto Índigo — Liga Pokémon",
+      "en": "Indigo Plateau — Pokémon League",
+      "region": "Kanto",
+      "access": "Saída norte de Victory Road",
+      "places": "Centro Pokémon; loja; salas da Elite dos Quatro",
+      "gym": "Liga: Lorelei, Bruno, Agatha, Lance e Campeão",
+      "directions": [
+        "Use o Centro e a loja no salão de entrada antes de desafiar a Liga. As salas avançam na ordem Lorelei, Bruno, Agatha, Lance e Campeão; não é possível sair para se curar entre elas."
+      ],
+      "items": [
+        "Hall da Fama: registro da equipe após vencer o Campeão. Compre os itens de cura antes de entrar."
+      ],
+      "tips": [
+        "Gelo é valioso contra os Dragonite de Lance. Leve cobertura de tipos para os cinco confrontos e conserve PP."
+      ],
+      "areas": []
+    },
+    "postgame": {
+      "pt": "Cidade de Pallet — Pokédex Nacional",
+      "en": "Pallet Town — National Pokédex",
+      "region": "Kanto",
+      "access": "Após entrar no Hall da Fama",
+      "places": "Laboratório de Oak; Centro de Rede da Ilha Um",
+      "gym": "Não possui",
+      "directions": [
+        "Após a Liga, retorne ao laboratório de Oak. Com pelo menos sessenta espécies capturadas, obtenha a Pokédex Nacional. Depois fale com Celio na Ilha Um para iniciar a busca da Ruby no Monte Ember."
+      ],
+      "items": [
+        "Pokédex Nacional: Oak. Rainbow Pass: Celio, em troca da Ruby."
+      ],
+      "tips": [
+        "Espécies vistas não substituem as sessenta capturadas. Acesso às demais ilhas depende da missão de Celio."
+      ],
+      "areas": [
+        "pallet-town"
+      ]
+    },
+    "sevii2post": {
+      "pt": "Ilhas Sevii — ilhas Quatro a Sete",
+      "en": "Sevii Islands — Four to Seven Island",
+      "region": "Ilhas Sevii",
+      "access": "Rainbow Pass após entregar Ruby a Celio",
+      "places": "Icefall Cave; Dotted Hole; Rocket Warehouse; Tanoby Ruins",
+      "gym": "Não possui",
+      "directions": [
+        "Na Ilha Quatro, encontre Waterfall na Icefall Cave e ajude Lorelei. Na Ilha Seis, use Cut na porta de Dotted Hole e siga as indicações em braille até a Sapphire. Recupere-a no armazém Rocket da Ilha Cinco e entregue-a a Celio."
+      ],
+      "items": [
+        "HM07 Waterfall: Icefall Cave. Sapphire: recuperada de Gideon no Rocket Warehouse. As duas senhas do armazém são obtidas durante a missão das gemas."
+      ],
+      "tips": [
+        "A Ilha Sete oferece exploração opcional. Não confunda a gema Sapphire da missão com uma mudança de jogo para Pokémon Sapphire."
+      ],
+      "areas": [
+        "four-island",
+        "icefall-cave-entrance",
+        "icefall-cave-1f",
+        "icefall-cave-b1f",
+        "icefall-cave-waterfall",
+        "five-island",
+        "five-isle-meadow",
+        "memorial-pillar",
+        "water-labyrinth",
+        "resort-gorgeous",
+        "lost-cave-room-1",
+        "canyon-entrance",
+        "sevault-canyon",
+        "tanoby-ruins",
+        "ruin-valley",
+        "water-path",
+        "green-path",
+        "pattern-bush",
+        "lost-cave-*",
+        "outcast-island",
+        "monean-chamber",
+        "liptoo-chamber",
+        "weepth-chamber",
+        "dilford-chamber",
+        "scufib-chamber",
+        "rixy-chamber",
+        "viapos-chamber"
+      ],
+      "sources": [
+        18,
+        19
+      ]
+    },
+    "ceruleancave": {
+      "pt": "Caverna de Cerulean — desafios finais",
+      "en": "Cerulean Cave",
+      "region": "Kanto",
+      "access": "Liga vencida e missão da máquina de Celio concluída",
+      "places": "Caverna; área de Mewtwo; revanche da Liga",
+      "gym": "Revanche da Liga disponível após o pós-jogo",
+      "directions": [
+        "Saia de Cerulean ao norte pela Rota 24 e use Surf para descer pelo canal até a entrada da caverna, no noroeste da cidade. Explore os andares e alcance Mewtwo nas profundezas."
+      ],
+      "items": [
+        "Há itens de exploração no chão da caverna; as posições individuais não foram incorporadas. Leve suas próprias Poké Balls e cura."
+      ],
+      "tips": [
+        "O guarda só libera a entrada após os requisitos do pós-jogo. Salve no jogo antes de Mewtwo; depois, a Liga oferece equipes de revanche mais fortes."
+      ],
+      "areas": [
+        "cerulean-cave-1f",
+        "cerulean-cave-2f",
+        "cerulean-cave-b1f"
+      ]
+    }
+  }
+}

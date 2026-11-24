@@ -1,17 +1,25 @@
 {
-  "version": "3.4-pwa-1a2eba15af3d",
+  "version": "3.4-pwa-b3758e39c4fc",
   "files": [
     {
       "path": "css/app.css",
       "sha256": "80a775e7f130007dddb03378d3961d5d5a1bb226b7bb72e4357c79722363429b"
     },
     {
+      "path": "css/journey.css",
+      "sha256": "acf45b569e8ebc734720d28b031fa2e1416acc7750f2875fd695be6d83573237"
+    },
+    {
       "path": "css/pwa.css",
-      "sha256": "bb8d4a83929f1d076d135551ff3f3beb3469da3b9f0f87cb062fbfb951c8da13"
+      "sha256": "4e849850471bb6948b6cf17e4bbd82363585e4e4a1bde4571789173c377c8315"
     },
     {
       "path": "data/gen3.json",
       "sha256": "87129b4e1c1627e45c7c2543cf6eb710648165038f90288271f20ef1ac0d7341"
+    },
+    {
+      "path": "data/journey-fr.json",
+      "sha256": "07723fdf8bff3733c0a097e0c042e3cdad259a4eb1e5f57953186a4302ac2e18"
     },
     {
       "path": "data/source-lock.json",
@@ -35,15 +43,15 @@
     },
     {
       "path": "index.html",
-      "sha256": "a9000804e48d3e6c40e1e876c660ae8d5496bb5d5b1277cd4a85f4c0253da285"
+      "sha256": "901d9622dbe676f3b75553774d5259d19454478d77bafb5ddc714f217fbc04df"
     },
     {
       "path": "js/app.js",
-      "sha256": "cf8093366e024e327a57ddc9498596159b54e4ce624c2836ca100000834fafe5"
+      "sha256": "57260e25cff0255c8697a429c40caacb8aa30d2760a76f54fe2bc491bf53529c"
     },
     {
       "path": "js/pwa.js",
-      "sha256": "802a4deac8895befc32d513d50060e7b33a7f7176df25bd64defd392c2372ced"
+      "sha256": "0e310a2ff66e11e0ba79ed90b241d7c3a6ce0e8e065135a2e38de8ef762625df"
     },
     {
       "path": "js/storage.js",

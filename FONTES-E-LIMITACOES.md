@@ -19,7 +19,9 @@ A licença da PokéAPI está preservada em `licenses/PokeAPI-LICENSE.md`, inclui
 
 O aviso de [PokeAPI/sprites](https://github.com/PokeAPI/sprites/blob/master/LICENCE.txt), copiado integralmente em `licenses/PokeAPI-sprites-LICENCE.txt`, declara CC0 para o repositório e ressalva os direitos das imagens da The Pokémon Company. Isso não deve ser interpretado como uma licença comercial dos personagens ou marcas. Preserve os avisos de titularidade ao redistribuir o aplicativo.
 
-As traduções em português são informativas e não oficiais. Os nomes originais em inglês continuam visíveis. As ilustrações esquemáticas da jornada e a assinatura by FlashCore foram preservadas; os novos ícones PN representam a moldura do aplicativo.
+As traduções em português são informativas e não oficiais. Os nomes originais em inglês continuam visíveis. A assinatura by FlashCore foi preservada; os ícones PN representam a moldura do aplicativo. As ilustrações esquemáticas foram removidas no Guia da Jornada 2.0.
+
+O conteúdo de exploração em português foi produzido para o aplicativo e conferido nas partes 1 a 20 do [guia FireRed/LeafGreen da Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_FireRed_and_LeafGreen). Cada etapa oferece a referência correspondente. Os encontros usam a base local, filtrada especificamente para FireRed.
 
 ## Limites de conteúdo mantidos
 
@@ -31,7 +33,9 @@ As traduções em português são informativas e não oficiais. Os nomes origina
 - O ranking de batalha estima tipos, poder e STAB; não calcula dano completo nem considera habilidades, IV/EV, velocidade ou nível. A categoria física/especial continua determinada pelo tipo na Geração III.
 - Golpes de poder variável usam os valores/sentinelas da tabela do jogo; não há simulação de todos os efeitos especiais.
 - Somente as missões obrigatórias possuem checklist, conforme a v3.4; atividades opcionais são texto de orientação.
-- Os links de mapas e referências externas exigem internet. As ilustrações internas, checklists e demais telas funcionam offline.
+- Os links de mapas e referências externas exigem internet. Checklists, encontros, orientações e demais telas essenciais funcionam offline.
+- A exploração 2.0 é uma referência de FireRed; LeafGreen preserva missões e progresso próprios com aviso de diferenças entre versões.
+- Itens e orientações priorizam informações verificadas úteis à história; não são um inventário completo de cada item escondido ou um mapa de cada passo das cavernas. Informações não incorporadas são sinalizadas.
 
 ## Armazenamento e iOS
 
